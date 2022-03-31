@@ -6,6 +6,7 @@ body{
 header{
    display: flex;
    justify-content: center;
+   height: 120px;
 }
 .container{
    display: flex;
@@ -15,7 +16,7 @@ header{
 .logo{
    display: flex;
    align-items: center;
-   height: 120px;
+   
 }
 
 menu{
@@ -124,4 +125,57 @@ nav .active a, nav a:hover{
 
 .banner-options a:hover{
    text-decoration: underline;
+}
+
+.timetable{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 0.3px solid #FFF;
+}
+.days, .hours{
+   padding: 0px;
+   margin: 14px 0;
+   color: #FFF;
+}
+
+#geral{
+   display: flex;
+   justify-content: center;
+}
+
+#geral section{
+   flex: 2;
+}
+
+#geral aside{
+   flex: 1;
+}
+
+.widget-title{
+   color: #000;
+   font-size: 20px;
+   margin-top: 30px;
+   margin-bottom: 18px;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
+.widget-title-bar{
+   width: 50px;
+   height: 2px;
+   background-color: #39aae1;
+   margin-top: 15px;
+}
+
+.widget-departments{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.widget-aside-box{
+   width: 150px;
+   height: 150px;
+   background-color: #39aae1;
+   margin-bottom: 20px;
 }
