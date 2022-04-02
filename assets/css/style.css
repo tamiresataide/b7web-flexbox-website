@@ -330,3 +330,91 @@ article .news-title{
    color: #3156a3;
    margin: 0 5px;
 }
+
+footer{
+   background-color: #1e1e1e;
+   display: flex;
+   justify-content: center;
+}
+
+footer .container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.footer-options{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.footer-options .banner1, .footer-options .banner2, .footer-options .banner3{
+   height: auto;
+}
+
+.footer-options a{
+   text-decoration: none;
+   color: #FFF;
+}
+
+.footer-section{
+   display: flex;
+   border-bottom: 2px solid #555;
+}
+
+.footer-section1, .footer-section2, .footer-section3{
+   flex: 1;
+}
+
+.footer-section-title{
+   color: #e0e0e0;
+   font-size: 18px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-transform: capitalize;
+}
+
+.footer-title-bar{
+   width: 50px;
+   height: 3px;
+   background-color: #39aae1;
+   margin-top: 15px;
+}
+
+.footer-section-content{
+   color: #909090;
+   font-size: 14px;
+
+}
+
+.footer-section2 .footer-section-content{
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-section2 a{
+   text-decoration: none;
+   color: #e0e0e0;
+   font-size: 14px;
+   margin: 10px 0;
+}
+
+.timestamp{
+   font-size: 12px;
+   color: #39aae1;
+   margin: 5px 15px;
+}
+
+.tweet{
+   margin: 25px 0;
+}
+
+.tweet-content{
+   display: flex;
+}
+
+.tweet-content p{
+   text-align: justify;
+   margin-left: 5px;
+}
